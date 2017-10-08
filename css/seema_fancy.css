@@ -8,6 +8,8 @@ h1
 
 #botheader
 {
+    display: block;
+    position: fixed;
     margin-top: 10px;
     height: 25px;
     text-align: center;
