@@ -8,9 +8,11 @@ h1
 
 #botheader
 {
+    font-size: 20px;
+    width: 100%;
     display: block;
-    position: fixed;
-    margin-top: 10px;
+    position: inherit;
+    margin-bottom: 10px;
     height: 25px;
     text-align: center;
     background-color: #9999cc;
@@ -32,7 +34,7 @@ body
     background-image: url("../bkgrnd.jpg");
     background-blend-mode: lighten;
     background-size: 100%;
-    opacity: 20;
+    background-color:#999999;
 }
 
 header
