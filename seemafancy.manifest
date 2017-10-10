@@ -1,0 +1,16 @@
+CACHE MANIFEST
+#the above line is required and is a syntax
+
+CACHE:
+abous_us.html
+bkgrnd.jpg
+thanks.html
+index.html
+videos.html
+css/seema_fancy.css
+
+FALLBACK: # incase resource does not load folloeing is shown
+404.html
+
+NETWORK: # list those files that you dont want to be stored
+robots.txt

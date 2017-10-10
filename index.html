@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="seemafancy.manifest">
 <head>
     <link rel="stylesheet" type="text/css" href="css/seema_fancy.css"/>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <h1> <strong>Seema Fancy Store</strong></h1>
+    <h1 style="scroll-padding-block:"> <strong>Seema Fancy Store</strong></h1>
     <h2 style="margin-bottom: 0px"> Banganga Municipality -10, Kapilvastu, Nepal </h2>
     <h3 style="text-align: center; margin-top: 0px"> Phone: (+977) 98570-32006</h3>
     <div id="botheader">
@@ -19,6 +19,25 @@
 
 <nav>
 <p style="font-size: 15px; display: block"> <a href="#abc"> A-C </a> </p>
+    <style type="text/css">
+        canvas {
+            float: right;
+            border: 5px;
+            background-color: #b3d4fc;
+            margin-right: 20px;
+            margin-top: auto;
+            margin-left: auto;
+        }
+    </style>
+    <canvas id="myCanvas"  height="200px" width="300px">
+    Your browser does not support canvas element
+    </canvas>
+    <script type="text/javascript">
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        ctx.fillStyle="red";
+        ctx.strokeRect(0,0,150,75)
+    </script>
 
 </nav>
 
